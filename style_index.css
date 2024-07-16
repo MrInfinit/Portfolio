@@ -1,0 +1,124 @@
+.about-me {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    height: auto;
+    font-family: inherit;
+    color:inherit;
+}
+
+.about-me .info h1{
+    font-size: 64px;
+    margin-bottom: 2%;
+    height: auto;
+}
+
+.about-me .info p{
+    font-size: 24px;
+    margin-bottom: 45px;
+    width: auto;
+    height: auto;
+}
+
+.about-me .info h2{
+    font-size: 35px;
+}
+
+.about-me img{
+    width: 350px;
+    height: 350px;
+}
+
+.knowledge-showcase {
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    align-items: center;
+}
+
+.knowledge-showcase-text{
+    justify-content: left;
+    display: flex;
+    font-size: 22px;
+    padding-right: 7%;
+}
+
+.knowledge-showcase-images{
+    display: inline-flex;
+    width: auto;
+    gap: 50px;
+}
+
+.knowledge-showcase-images img{
+    height: auto;
+    width: auto;
+    transition-duration: 0.2s;
+}
+
+.knowledge-showcase-images img:hover{
+    scale:1.5;
+}
+
+.project-showcase{
+    padding-top: 5%;
+    width: 100%;
+}
+
+.project-showcase-text{
+    justify-content: center;
+    display: flex;
+    font-size: 24px;
+}
+
+.project-showcase-images-row1{
+    justify-content: center;
+    display: flex;
+    gap: 25px;
+}
+
+.project-showcase-images-row1 img{
+    transition-duration: 0.2s;
+}
+
+.project-showcase-images-row1 img:hover{
+    scale: 1.1;
+}
+
+.project-showcase-images-row2{
+    justify-content: center;
+    display: flex;
+    gap: 25px;
+}
+
+.project-showcase-images-row2 img{
+    transition-duration: 0.2s;
+}
+
+.project-showcase-images-row2 img:hover{
+    scale: 1.1;
+}
+
+.activity-showcase{
+    padding-top: 5%;
+    width: 100%;
+}
+
+.activity-showcase-text{
+    justify-content: center;
+    display: flex;
+    font-size: 24px;
+}
+
+.socials{
+    padding-left: 5%;
+}
+
+.socials h2{
+    font-size: 35px;
+}

@@ -1,0 +1,154 @@
+.proj_list{
+    padding: 5% 2%;
+
+}
+
+.proj_list a{
+    text-decoration: none;
+    color: black;
+    padding: 5% 2% 5%;
+}
+
+.proj_list .proj1{
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 200px;
+    width: auto;
+    display:flex;
+    background-color: #F0F0F0;
+}
+
+.proj1 img{
+    height: 200px;
+    width: 250px;
+    border-radius: 8px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-right: 2px solid black;
+}
+
+.proj1 .proj1_title{
+    height: auto;
+    width: 100%;
+    align-items: center;
+    justify-content: left;
+}
+
+.proj1 .proj1_title h3{
+    padding-left: 2%;
+    font-size: 50px;
+    font-weight: 500;
+    height: 70px;
+    width: auto;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.proj_list .proj2{
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 200px;
+    width: auto;
+    display:flex;
+    background-color: #F0F0F0;
+}
+
+.proj2 img{
+    height: 200px;
+    width: 250px;
+    border-radius: 8px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-right: 2px solid black;
+}
+
+.proj2 .proj2_title{
+    height: auto;
+    width: 100%;
+    align-items: center;
+    justify-content: left;
+}
+
+.proj2 .proj2_title h3{
+    padding-left: 2%;
+    font-size: 50px;
+    font-weight: 500;
+    height: 70px;
+    width: auto;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.proj_list .proj3{
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 200px;
+    width: auto;
+    display:flex; 
+    background-color: #F0F0F0;
+}
+
+.proj3 img{
+    height: 200px;
+    width: 250px;
+    border-radius: 8px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-right: 2px solid black;
+}
+
+.proj3 .proj3_title{
+    height: auto;
+    width: 100%;
+    align-items: center;
+    justify-content: left;
+}
+
+.proj3 .proj3_title h3{
+    padding-left: 2%;
+    font-size: 50px;
+    font-weight: 500;
+    height: 70px;
+    width: auto;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.proj_list .proj4{
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 200px;
+    width: auto;
+    display:flex; 
+    background-color: #F0F0F0;
+}
+
+.proj4 img{
+    height: 200px;
+    width: 250px;
+    border-radius: 8px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-right: 2px solid black;
+}
+
+.proj4 .proj4_title{
+    height: auto;
+    width: 100%;
+    align-items: center;
+    justify-content: left;
+}
+
+.proj4 .proj4_title h3{
+    padding-left: 2%;
+    font-size: 50px;
+    font-weight: 500;
+    height: 70px;
+    width: auto;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
