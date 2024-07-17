@@ -1,0 +1,10 @@
+.title {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: auto;
+}
+
+.title h3{
+    font-size: 60px;
+}
