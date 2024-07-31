@@ -39,6 +39,11 @@ function closePopupFunc() {
     }
 });
 
+function handleClick() { 
+    _gaq.push(['_trackEvent', 'emails', 'clicked', 'lead']); //first this
+    window.open = 'anotherpage.html'; //or window.location for redirection
+ }
 
 // You can customize and expand these functions based on your specific requirements.
 });
+

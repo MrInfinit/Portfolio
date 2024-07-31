@@ -157,8 +157,30 @@
 
 .socials{
     padding-left: 5%;
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    
 }
 
 .socials h2{
+    font-size: 45px;
+}
+
+.socials a{
+    color: inherit;
+    text-decoration: none;
+    transition-duration: 0.2s;
+}
+
+.socials .social-icons {
+    display: flex;
+    padding-left: 2%;
     font-size: 35px;
+    transition-duration: 0.2s;
+    gap: 30px;
+}
+
+.socials a:hover{
+    color:  #2493E2;
 }
