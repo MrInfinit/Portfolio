@@ -8,3 +8,14 @@
 .title h3{
     font-size: 60px;
 }
+
+.WIP{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: auto;
+}
+
+.WIP h3{
+    font-size: 40px;
+}
