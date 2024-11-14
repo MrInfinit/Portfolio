@@ -1,5 +1,5 @@
 .proj_list{
-    padding: 5% 20%;
+    padding: 5% 25%;
 
 }
 
@@ -11,12 +11,13 @@
 }
 
 .proj_list .proj1{
-    border: 2px solid black;
+    border-width: 3px;
+    border-style: solid;
+    border-color: inherit;
     border-radius: 10px;
     height: 150px;
     width: auto;
     display:flex;
-    background-color: #F0F0F0;
 }
 
 .proj1 img{
@@ -25,7 +26,9 @@
     border-radius: 8px;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
-    border-right: 2px solid black;
+    border-right-width: 2px;
+    border-right-style: solid;
+    border-right-color: inherit;
 }
 
 .proj1 .proj1_title{
@@ -48,12 +51,13 @@
 }
 
 .proj_list .proj2{
-    border: 2px solid black;
+    border-width: 3px;
+    border-style: solid;
+    border-color: inherit;
     border-radius: 10px;
     height: 150px;
     width: auto;
     display:flex;
-    background-color: #F0F0F0;
 }
 
 .proj2 img{
@@ -62,7 +66,9 @@
     border-radius: 8px;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
-    border-right: 2px solid black;
+    border-right-width: 2px;
+    border-right-style: solid;
+    border-right-color: inherit;
 }
 
 .proj2 .proj2_title{
