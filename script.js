@@ -2,19 +2,11 @@ document.addEventListener('DOMContentLoaded', function () {
 const popupOverlay = document.getElementById('popupOverlay');
 const popup = document.getElementById('popup');
 const closePopup = document.getElementById('closePopup');
-const Darkmode = document.getElementById('dark-mode');
     // Function to open the popup
 
 function openPopup() {
      popupOverlay.style.display = 'block';
 }
-
-function dark() {
-    var body = document.body;
-    body.classList.toggle('dark-mode');
-
-}
-Darkmode.addEventListener('click', dark)
 
 // Function to close the popup
 
@@ -47,3 +39,7 @@ function handleClick() {
 // You can customize and expand these functions based on your specific requirements.
 });
 
+document.addEventListener('DOMContentLoaded',function()
+{
+	darkmode_init();
+});
